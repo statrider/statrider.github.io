@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy - STATrider</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  display: inline-block;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:100;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: auto;
+  display: inline-block;
+  color: #1D2951;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #1D2951;
+  opacity: 0.9;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background: white;
+    opacity: 0.9
+      }
+}
+
+.featurestext {
+  display:block;
+  position: relative;
+  left: 7%;
+  right: 7%;
+  width:86%;
+  font-size: 20px;
+  color: #1D2951;
+  padding:0px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+
+.fa {
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background: #1D2951;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+.fa:hover {
+  opacity: 1;
+  background-color: #224C98;
+  text-decoration: none;  
+}
+
+.fa:active {
+  opacity: 1;
+  text-decoration: none;  
+}
+
+.fa-facebook {
+  display: inline-block;
+  padding: 10px 15px 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background: #1D2951;
+  margin: 10px;
+}
+
+.fa-bars {
+  display: block;
+  padding-right: 40px;
+  padding-top: 4px; 
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0%;
+  vertical-align:middle;
+  background: transparent;
+  color: #1D2951;
+}
+
+.fa-bars:hover {
+    opacity: 1;
+    background-color: white;
+}
+
+
+.centertext {
+  display:block;
+  text-align: center;
+  height: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #1D2951;
+}
+
+.button:hover {
+  background-color: #224C98;
+}
+
+</style>
+</head>
+
+<body>
+		<div class="topnav" id="myTopnav">
+			<a href="#home"><img src="images/STATriderLogo.png" alt="Home" height = 50px style="vertical-align:middle;margin:0px 0px;"></a>
+			<a href="index.html">Features</a>
+  			<a href="requirements.html">Requirements</a>
+  			<a href="privacy.html">Privacy</a>
+  			<a href="support.html">Support</a>
+  			<a href="donate.html">Donate</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+		        </a>
+		</div>
+
+<div class="featurestext">
+<h2 id="home" style="text-align:center">Privacy</h2>
+<p>STATrider does not send any private information from your PC to the cloud. Data will only be sent out from your PC when you use Events sheet to do a search.</p>
+<p>Opening STATrider for the first time, you will see a security warning in a message bar as shown below.</p>
+<p style="text-align:center;"><img src="images/EnableContent.jpg" alt="Enable Content" height = 100% style="vertical-align:middle;margin:0px 0px;"></p>
+<p>In order to make STATrider fully functional you&#39ll have to click <b>Enable Content</b>.</p>
+<p>For more details about the security warning please visit Microsoft website at:</p>
+<p><a href="https://support.office.com/en-us/article/enable-or-disable-security-alerts-on-the-message-bar-adbf15d9-9195-4498-bdc3-5cb0dfe93852" target="_blank">https://support.office.com/en-us/article/enable-or-disable-security-alerts-on-the-message-bar-adbf15d9-9195-4498-bdc3-5cb0dfe93852</a></p>
+<p>STATrider uses a Microsoft Excel feature called Get & Transform to search events for you. In order to give you maximum transparency on how it is done, all M code used is unprotected.</p>
+<p>For more information, please follow the link below:</p>
+<p><a href="https://support.office.com/en-us/article/get-transform-in-excel-881c63c6-37c5-4ca2-b616-59e18d75b4de" target="_blank">https://support.office.com/en-us/article/get-transform-in-excel-881c63c6-37c5-4ca2-b616-59e18d75b4de</a></p>
+<br>
+<div class="centertext">
+<a href="https://www.instagram.com/statrider/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/channel/UC1YVKhoDaw86jQpmxIXIuEw" target="_blank" class="fa fa-youtube"></a>
+<a href="https://www.facebook.com/statriderapp/" target=_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/statrider" target=_blank" class="fa fa-twitter"></a>
+<br>
+<div style="float:left; font-size: 12px; width:48%;">
+<p style="text-align:right"><a href="contactus.html">Contact Us</a></p>
+</div>
+<div style="float:left; font-size: 12px; width:4%;">
+<p></p>
+</div>		
+<div style="float:left; font-size: 12px; width:48%;">
+<p style="text-align:left"><a href="termsofuse.html">Terms of Use</a></p>
+</div>
+</div></div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }	
+}
+</script>
+	
+</body>
+</html>
+
