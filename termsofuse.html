@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use - STATrider</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  display: inline-block;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:100;
+ 
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a  {
+  margin: auto;
+  display: inline-block;
+  color: #1D2951;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: #1D2951;
+  opacity: 0.9;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background: white;
+    opacity: 0.9
+      }
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/STATriderwebsitebackground.jpg");
+
+  /* Full height */
+  height: 95%; 
+
+  /* Center and scale the image nicely */
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headcenter{
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	top: 30%;
+	left: 5%;
+	bottom: 0;
+	right: 5%;
+	width:90%;
+	height: 100%;
+	display: inline-block;
+	color: #FAEBD7;
+	text-align: center;
+	text-decoration: none;
+  	font-size: 36px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.introcenter{
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	top: 65%;
+	left: 5%;
+	bottom: 0;
+	right: 5%;
+	width:90%;
+	height: 100%;
+	display: inline-block;
+	color: #FAEBD7;
+	text-align: center;
+	text-decoration: none;
+  	font-size: 18px;
+	font-weight: bold;
+	line-height: 0.2;
+}
+
+.centerimg {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  padding-top: 46.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0px;
+  display: block;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.featurestext {
+  display:block;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  width:90%;
+  font-size: 20px;
+  color: #1D2951;
+  padding:0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background: #1D2951;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+.fa:hover {
+  opacity: 1;
+  background-color: #224C98;
+  text-decoration: none;  
+}
+
+.fa:active {
+  opacity: 1;
+  text-decoration: none;  
+}
+
+.fa-facebook {
+  display: inline-block;
+  padding: 10px 15px 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  background: #1D2951;
+  margin: 10px;
+}
+
+.fa-bars {
+  display: block;
+  padding-right: 40px;
+  padding-top: 4px; 
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0%;
+  vertical-align:middle;
+  background: transparent;
+  color: #1D2951;
+}
+
+.fa-bars:hover {
+    opacity: 1;
+    background-color: white;
+}
+
+.centertext {
+  display: block;
+  text-align: center;
+  height: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #1D2951;
+}
+
+.button:hover {
+  background-color: #224C98;
+}
+
+</style>
+</head>
+
+<body>
+		<div class="topnav" id="myTopnav">
+			<a href="#home"><img src="images/STATriderLogo.png" alt="Home" height = 50px style="vertical-align:middle;margin:0px 0px;"></a>
+			<a href="index.html">Features</a>
+  			<a href="requirements.html">Requirements</a>
+  			<a href="privacy.html">Privacy</a>
+  			<a href="support.html">Support</a>
+  			<a href="donate.html">Donate</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+		        </a>
+		</div>
+<br>
+<div class="featurestext">
+<div class="centertext">
+<h2 id="donate">Terms of Use</h2>
+<ol style="text-align:left;">
+<p>What is STATrider?</p>
+<li>STATrider is a macro-enabled Excel spreadsheet using VBA code to automate several tasks.</li>
+<li>STATrider requires a Microsoft Excel Office 365 for Windows to be installed in order to be used. STATrider does not include a Microsoft Excel Office 365 license and it is not in any form associated with Microsoft.</li>
+<li>Please read STATrider Requirements page to make sure your PC has the minimum requirements before you complete your purchase.</li>
+<p>Privacy</p>
+<li>STATrider does not send any private information from your PC to the cloud. The only time your PC will send information through the internet is when you search for events using Events sheet.</li>
+</ol>
+<br>
+<a href="https://www.instagram.com/statrider/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/channel/UC1YVKhoDaw86jQpmxIXIuEw" target="_blank" class="fa fa-youtube"></a>
+<a href="https://www.facebook.com/statriderapp/" target=_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/statrider" target=_blank" class="fa fa-twitter"></a>
+<br>
+<div style="float:left; font-size: 12px; width:48%;">
+<p style="text-align:right"><a href="contactus.html">Contact Us</a></p>
+</div>
+<div style="float:left; font-size: 12px; width:4%;">
+<p></p>
+</div>		
+<div style="float:left; font-size: 12px; width:48%;">
+<p style="text-align:left"><a href="termsofuse.html">Terms of Use</a></p>
+</div>	
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }	
+}
+</script>
+	
+</body>
+</html>
+
