@@ -70,8 +70,8 @@ a:active {
 
 /* Change the color of links on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: white;
-  color: #1D2951;
+  background-color: transparent;
+  color: #224C98;
   opacity: 0.9;
 }
 
@@ -240,7 +240,7 @@ a:active {
 
 .fa-bars {
   display: block;
-  padding-right: 40px;
+  padding-right: 10px;
   padding-top: 4px; 
   font-size: 25px;
   text-align: center;
@@ -253,7 +253,7 @@ a:active {
 
 .fa-bars:hover {
     opacity: 1;
-    background-color: white;
+    background-color: transparent;
 }
 
 .centertext {
@@ -287,7 +287,7 @@ a:active {
 
 <body>
 		<div class="topnav" id="myTopnav">
-			<a href="#home"><img src="images/STATriderLogo.png" alt="Home" height = 50px style="vertical-align:middle;margin:0px 0px;"></a>
+			<a href="index.html"><img src="images/STATriderLogo.png" alt="Home" height = 50px style="vertical-align:middle;margin:0px 0px;"></a>
 			<a href="#features">Features</a>
   			<a href="requirements.html">Requirements</a>
   			<a href="privacy.html">Privacy</a>
@@ -394,11 +394,12 @@ a:active {
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
+
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
     x.className = "topnav";
-  }	
+  }
 }
 </script>
 	
